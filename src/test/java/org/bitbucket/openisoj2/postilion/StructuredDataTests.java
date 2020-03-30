@@ -1,8 +1,8 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
 import static org.junit.Assert.*;
 
-import org.bitbucket.openisoj.postilion.structdata.StructuredData;
+import org.bitbucket.openisoj2.postilion.structdata.StructuredData;
 import org.junit.Test;
 
 public class StructuredDataTests

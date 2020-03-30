@@ -1,19 +1,19 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
 import java.nio.charset.Charset;
 import java.nio.charset.spi.CharsetProvider;
 
 import javax.rmi.CORBA.Util;
 
-import org.bitbucket.openisoj.FieldDescriptor;
-import org.bitbucket.openisoj.IField;
-import org.bitbucket.openisoj.Iso8583;
-import org.bitbucket.openisoj.Template;
-import org.bitbucket.openisoj.exceptions.UnknownFieldException;
-import org.bitbucket.openisoj.fieldvalidator.FieldValidators;
-import org.bitbucket.openisoj.formatter.BinaryFormatter;
-import org.bitbucket.openisoj.lengthformatters.VariableLengthFormatter;
-import org.bitbucket.openisoj.postilion.structdata.StructuredData;
+import org.bitbucket.openisoj2.core.FieldDescriptor;
+import org.bitbucket.openisoj2.core.IField;
+import org.bitbucket.openisoj2.core.Iso8583;
+import org.bitbucket.openisoj2.core.Template;
+import org.bitbucket.openisoj2.core.exceptions.UnknownFieldException;
+import org.bitbucket.openisoj2.core.fieldvalidator.FieldValidators;
+import org.bitbucket.openisoj2.core.formatter.BinaryFormatter;
+import org.bitbucket.openisoj2.core.lengthformatters.VariableLengthFormatter;
+import org.bitbucket.openisoj2.postilion.structdata.StructuredData;
 
 public class Iso8583Postilion extends Iso8583
 {
@@ -232,6 +232,7 @@ public class Iso8583Postilion extends Iso8583
 	{
 
 		_postilionPrivateFields.set(privateField, value);
+		bitmap.setField(Bit._127_POSTILION_PRIVATE_BITS,true);
 		// byte[] privateData = _postilionPrivateFields.toMsg();
 		// IField privField = this.getField(127);
 		// privField.setValue(new String(privateData));

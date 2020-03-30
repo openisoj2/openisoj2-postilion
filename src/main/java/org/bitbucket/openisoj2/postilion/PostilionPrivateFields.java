@@ -1,16 +1,16 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
-import org.bitbucket.openisoj.AMessage;
-import org.bitbucket.openisoj.Field;
-import org.bitbucket.openisoj.FieldDescriptor;
-import org.bitbucket.openisoj.IField;
-import org.bitbucket.openisoj.IFieldDescriptor;
-import org.bitbucket.openisoj.Template;
-import org.bitbucket.openisoj.exceptions.UnknownFieldException;
-import org.bitbucket.openisoj.fieldvalidator.FieldValidators;
-import org.bitbucket.openisoj.formatter.BinaryFormatter;
-import org.bitbucket.openisoj.postilion.Iso8583Postilion.PrivateBits;
-import org.bitbucket.openisoj.postilion.structdata.StructuredData;
+import org.bitbucket.openisoj2.core.AMessage;
+import org.bitbucket.openisoj2.core.Field;
+import org.bitbucket.openisoj2.core.FieldDescriptor;
+import org.bitbucket.openisoj2.core.IField;
+import org.bitbucket.openisoj2.core.IFieldDescriptor;
+import org.bitbucket.openisoj2.core.Template;
+import org.bitbucket.openisoj2.core.exceptions.UnknownFieldException;
+import org.bitbucket.openisoj2.core.fieldvalidator.FieldValidators;
+import org.bitbucket.openisoj2.core.formatter.BinaryFormatter;
+import org.bitbucket.openisoj2.postilion.Iso8583Postilion.PrivateBits;
+import org.bitbucket.openisoj2.postilion.structdata.StructuredData;
 
 public class PostilionPrivateFields extends AMessage
 {

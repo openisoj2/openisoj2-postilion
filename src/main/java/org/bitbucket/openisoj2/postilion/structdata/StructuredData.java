@@ -1,4 +1,4 @@
-package org.bitbucket.openisoj.postilion.structdata;
+package org.bitbucket.openisoj2.postilion.structdata;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -102,7 +102,7 @@ public class StructuredData extends LinkedHashMap<String, String>
 			{
 				String key = entries.getKey();
 				String value = entries.getValue();
-				sb.append("[").append(key).append("] - [").append(value)
+				sb.append("\t\t[").append(key).append("] - [").append(value)
 						.append("]").append("\n");
 			}
 		}

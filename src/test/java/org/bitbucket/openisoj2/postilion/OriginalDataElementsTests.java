@@ -1,8 +1,8 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
 import static org.junit.Assert.*;
 
-import org.bitbucket.openisoj.Iso8583;
+import org.bitbucket.openisoj2.core.Iso8583;
 import org.junit.Test;
 
 public class OriginalDataElementsTests

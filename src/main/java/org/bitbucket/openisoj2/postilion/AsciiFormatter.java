@@ -1,8 +1,8 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
 import java.nio.charset.Charset;
 
-import org.bitbucket.openisoj.formatter.IFormatter;
+import org.bitbucket.openisoj2.core.formatter.IFormatter;
 
 public class AsciiFormatter implements IFormatter
 {

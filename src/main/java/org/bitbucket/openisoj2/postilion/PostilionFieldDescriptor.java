@@ -1,9 +1,9 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
-import org.bitbucket.openisoj.FieldDescriptor;
-import org.bitbucket.openisoj.Utils;
-import org.bitbucket.openisoj.fieldvalidator.IFieldValidator;
-import org.bitbucket.openisoj.lengthformatters.ILengthFormatter;
+import org.bitbucket.openisoj2.core.FieldDescriptor;
+import org.bitbucket.openisoj2.core.Utils;
+import org.bitbucket.openisoj2.core.fieldvalidator.IFieldValidator;
+import org.bitbucket.openisoj2.core.lengthformatters.ILengthFormatter;
 
 public class PostilionFieldDescriptor extends FieldDescriptor
 {

@@ -1,4 +1,4 @@
-package org.bitbucket.openisoj.postilion;
+package org.bitbucket.openisoj2.postilion;
 
 public class Utils
 {
