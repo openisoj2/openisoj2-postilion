@@ -3,30 +3,23 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.bitbucket.openisoj2</groupId>
-	<artifactId>openisoj2-postilion</artifactId>
+	<artifactId>postilion</artifactId>
 	<version>2.0.0-RELEASE</version>
 	<packaging>jar</packaging>
 
-	<name>OpenIsoJ-Postilion</name>
+	<name>openisoj2-postilion</name>
 	<url>https://bitbucket.org/openisoj/openisoj-postilion</url>
 
 	<developers>
 		<developer>
-			<id>brandall</id>
-			<name>Brendon Randall</name>
-			<email>brenzim@gmail.com</email>
+			<id>JPurse</id>
+			<name>Julian Purse</name>
+			<email>jpurse@arvutisolutions.com</email>
 			<roles>
 				<role>Owner</role>
 			</roles>
 		</developer>
-		<developer>
-			<id>joxley</id>
-			<name>John Oxley</name>
-			<email>john.oxley@gmail.com</email>
-			<roles>
-				<role>Contributor</role>
-			</roles>
-		</developer>
+
 	</developers>
 
 	<licenses>
