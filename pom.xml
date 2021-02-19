@@ -4,7 +4,7 @@
 
 	<groupId>org.bitbucket.openisoj2</groupId>
 	<artifactId>openisoj2-postilion</artifactId>
-	<version>2.0.1-RELEASE</version>
+	<version>2.0.2-RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>openisoj2-postilion</name>

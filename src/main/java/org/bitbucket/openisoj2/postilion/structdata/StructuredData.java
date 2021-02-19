@@ -44,6 +44,10 @@ public class StructuredData extends LinkedHashMap<String, String>
 	private String readString(String msg, int offset, int lengthIndicator)
 	{
 		String data = msg.substring(offset, offset + lengthIndicator);
+		if (data.getBytes().length > data.length()) {
+			//utf8 characters
+			return msg.substring(offset, offset + lengthIndicator - (data.getBytes().length - data.length()));
+		}
 		return data;
 	}
 

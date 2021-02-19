@@ -124,7 +124,7 @@ public class PostilionPrivateFields extends AMessage
 			_postilionPrivTemplate.put(
 					PrivateBits._022_STRUCTURED_DATA,
 					FieldDescriptor.getAsciiVar(5, 99999,
-							FieldValidators.getAns()));
+							FieldValidators.getNone()));
 			_postilionPrivTemplate.put(PrivateBits._023_PAYEE_NAME_ADDRESS,
 					FieldDescriptor.getAsciiAns(253));
 			_postilionPrivTemplate
